@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['Bell paper', 'Broccoli', 'Cabbage', 'Carrot', 'Cauliflower', 'Eggplant', 'Onion', 'Tomato', 'garlic', 'lemon', 'mushroom']
+
+roboflow:
+  workspace: sriparnas-work
+  project: vegetables-4j4td
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sriparnas-work/vegetables-4j4td/dataset/2
